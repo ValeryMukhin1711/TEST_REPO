@@ -1,0 +1,49 @@
+
+.sale {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
+   
+}
+
+.sale__header{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    width: 100%;
+}
+
+.sale__items {
+    display: flex;
+    column-gap: 32px;
+    justify-content: space-between;
+}
+
+.line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #DDDDDD;
+    margin: 0 16px;
+  }
+
+
+.all_sales_btn {
+    width: 97px;
+    height: 36px;
+    padding: 8 16px;
+    border-radius: 8px;
+    border: 1px solid #DDDDDD;
+    color: #8B8B8B;
+    background: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+
+  }
+  
+.all_sales_btn:hover {
+    background: #f0f0f0;
+  }
+  

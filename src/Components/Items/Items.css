@@ -1,0 +1,64 @@
+.item {
+    position: relative;
+    width: calc(33.33% - 32px); 
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid #DDDDDD; 
+    padding: 20px; 
+    background-color: #fff; 
+    border-radius: 8px;
+}
+
+.discount {
+    position: absolute;
+    width: 68px;
+    height: 34px;
+    top: 16px;
+    right: 16px; 
+    background: #F26D22; 
+    color: #FFFFFF; 
+    font-size: 20px; 
+    line-height: 26px;
+    font-weight: 600px;
+    padding: 4px 8px;
+    text-align: center;
+    width: 52px;
+    height: 26px;
+    border-radius: var(--radiussmall, 8px); 
+}
+
+.item__img {
+    margin-bottom: 20px; /* Отступ между картинкой и заголовком */
+    width: 316px;
+    height: 284px;
+}
+
+.item__body {
+    display: flex;
+    flex-direction: column; /* Элементы располагаются вертикально */
+    align-items: flex-start; /* Выровнять элементы по левому краю */
+    gap: 16px; /* Расстояние между названием, новой ценой и старой ценой */
+}
+
+.item__title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+}
+
+.new__price {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 44px;
+    color: #000; 
+}
+
+.old__price {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    text-decoration-line: line-through;
+    color: #8e7b7b; /* Серый цвет для старой цены */
+    margin-left: 16px; /* Отступ между новой и старой ценой */
+}

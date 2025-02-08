@@ -1,0 +1,14 @@
+body {
+    font-family: 'Montserrat';
+    background-color:  #FFFFF1;
+}
+
+.title-2{
+     font-size: 64px;
+     font-weight: 700;
+     line-height: 70.4px;
+     text-align: left;
+     text-underline-position: from-font;
+     text-decoration-skip-ink: none;
+     margin-bottom: 40px;
+}

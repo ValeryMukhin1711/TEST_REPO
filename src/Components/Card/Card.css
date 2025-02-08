@@ -1,0 +1,21 @@
+.card {
+    width: calc(33.33% - 32px); 
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #FFFFF1;
+}
+
+.card__img {
+    width: 316px;
+    height: 350px;
+    border-radius: var(--radiusbig);
+}
+
+.card__title{
+    padding-top: 16px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    justify-content: center;
+}

@@ -1,0 +1,61 @@
+.footer {
+    padding: 80px 40px;
+}
+
+.footer__header {
+    margin-bottom: 40px;
+}
+
+.info-blocks {
+    display: flex;
+    flex-wrap: wrap; /* Блоки могут переноситься на новую строку */
+    gap: 32px;
+    justify-content: space-between; /* Равномерное распределение */
+}
+
+.label {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+    color: #8B8B8B;
+    margin-bottom: 16px;
+}
+
+.text {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: left;
+    color: #424436;
+}
+
+.block1__3, .block2__4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 32px;
+    background-color: #F2F6D3;
+    border-radius: 8px;
+    flex: 1; /* Позволяет блокам подстраиваться */
+    min-width: 380px; /* Минимальная ширина, чтобы не сжимались */
+}
+
+.block1__3 {
+    max-width: 780px;
+    height: 150px;
+}
+
+.block2__4 {
+    max-width: 548px;
+    height: 150px;
+}
+
+.icons{
+    width: 43px;
+    height: 44px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}

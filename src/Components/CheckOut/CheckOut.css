@@ -1,0 +1,47 @@
+.checkOut{
+    margin-bottom: 80px;
+}
+
+.checkOut__content {
+    height: 600px;
+    background-image: url('./../../img/mainPics/img.jpg');
+}
+
+.checkOut__text {
+    padding-top: 80px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 105.6px;
+    text-align: left;
+    color: white;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.checkOut__btn {
+   background: #92A134;
+    border: none;
+    border-radius: 6px;
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 1198px;
+    
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+    cursor: pointer;
+    transition:  0.3s, color 0.3s;
+}
+
+.checkOut__btn:hover {
+    background: #a7b741; 
+    color: white; 
+}
+
